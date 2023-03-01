@@ -79,6 +79,8 @@ const displayMealDetails = meal => {
     const mealsDetails = document.getElementById('mealDetailsBody');
     mealsDetails.innerHTML = `
     <img class="img-fluid" src="${meal.strMealThumb}">
+    <p>${meal.strInstructions}</p>
+    <a href="${meal.strYoutube}">YouTube</a>
     `
 }
 
